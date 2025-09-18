@@ -2,6 +2,7 @@ import os
 import sys
 from easydict import EasyDict
 sys.path.append(os.path.abspath(__file__ + '/../../..'))
+
 from basicts.metrics import masked_mae, masked_mse
 from basicts.data import TimeSeriesForecastingDataset
 from basicts.runners import SimpleTimeSeriesForecastingRunner
@@ -12,7 +13,7 @@ from .arch import NSMOE
 
 ############################## Hot Parameters ##############################
 # Dataset & Metrics configuration
-DATA_NAME = 'Electricity'  # Dataset name
+DATA_NAME = 'ETTh1'  # Dataset name
 regular_settings = get_regular_settings(DATA_NAME)
 INPUT_LEN = regular_settings['INPUT_LEN']  # Length of input sequence
 OUTPUT_LEN = regular_settings['OUTPUT_LEN']  # Length of output sequence
@@ -21,50 +22,43 @@ NORM_EACH_CHANNEL = regular_settings['NORM_EACH_CHANNEL'] # Whether to normalize
 RESCALE = regular_settings['RESCALE'] # Whether to rescale the data
 NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
 
-#python experiments/train.py -c baselines/NS-MOE/NSMOE_Electricity.py -g 0
-OUTPUT_LEN = 192
-
-# Model architecture and parameters - NS-MOE (Neural Scaling Mixture of Experts)
+# Model architecture and parameters
 MODEL_ARCH = NSMOE
-NUM_NODES = 321
+NUM_NODES = 7
 MODEL_PARAM = {
-    "enc_in": NUM_NODES,                        # num nodes
+    "enc_in": NUM_NODES,                              # num nodes
     "dec_in": NUM_NODES,
     "c_out": NUM_NODES,
-    "seq_len": INPUT_LEN,
-    "label_len": INPUT_LEN//2,                  # start token length used in decoder
-    "pred_len": OUTPUT_LEN,                     # prediction sequence length
-    "factor": 3,                                # attn factor
-    "d_model": 512,                             # model dimension (matching iTransformer)
-    "n_heads": 8,                               # number of attention heads
-    "e_layers": 3,                              # num of encoder layers
+    "seq_len": INPUT_LEN,           # input sequence length
+    "label_len": INPUT_LEN//2,       # start token length used in decoder
+    "pred_len": OUTPUT_LEN,          # prediction sequence length
+    "factor": 3,                                # probsparse attn factor
+    "d_model": 64,
+    "n_heads": 2,
+    "e_layers": 2,                              # num of encoder layers
     "d_layers": 1,                              # num of decoder layers
-    "d_ff": 512,                                # feedforward dimension
-    "dropout": 0.1,                             # dropout rate
-    "freq": 'h',                                # frequency
-    "use_norm": True,                           # use normalization
-    "output_attention": False,                  # output attention weights
+    "d_ff": 256,
+    "dropout": 0.05,
     "embed": "timeF",                           # [timeF, fixed, learned]
-    "activation": "gelu",                       # activation function
-    
-    # NS-MOE specific parameters
-    "num_experts": 8,                           # number of experts in MoE
-    "top_k_experts": 2,                         # top-k experts to route to
-    "aux_loss_weight": 0.01,                    # weight for auxiliary load balancing loss
-    
-    # Time features
-    "num_time_features": 4,                     # number of used time features
+    "activation": "gelu",
+    "output_attention": False,
+    "use_norm": True,
+    "num_time_features": 4,                     # number of used time features [time_of_day, day_of_week, day_of_month, day_of_year]
     "time_of_day_size": 24,
     "day_of_week_size": 7,
     "day_of_month_size": 31,
-    "day_of_year_size": 366
-}
-NUM_EPOCHS = 100  # Matching iTransformer Electricity config
+    "day_of_year_size": 366,
+    # NS-MOE specific parameters
+    "num_experts": 4,
+    "top_k_experts": 2,
+    "aux_loss_weight": 0.01
+    }
+NUM_EPOCHS = 100
 
 ############################## General Configuration ##############################
 CFG = EasyDict()
 # General settings
-CFG.DESCRIPTION = 'NS-MOE: Neural Scaling Mixture of Experts for Time Series Forecasting'
+CFG.DESCRIPTION = 'An Example Config'
 CFG.GPU_NUM = 1 # Number of GPUs to use (0 for CPU mode)
 # Runner
 CFG.RUNNER = SimpleTimeSeriesForecastingRunner
@@ -118,29 +112,30 @@ CFG.TRAIN = EasyDict()
 CFG.TRAIN.NUM_EPOCHS = NUM_EPOCHS
 CFG.TRAIN.CKPT_SAVE_DIR = os.path.join(
     'checkpoints',
-    'NSMOE',
+    MODEL_ARCH.__name__,
     '_'.join([DATA_NAME, str(CFG.TRAIN.NUM_EPOCHS), str(INPUT_LEN), str(OUTPUT_LEN)])
 )
 CFG.TRAIN.LOSS = masked_mae
 # Optimizer settings
 CFG.TRAIN.OPTIM = EasyDict()
-CFG.TRAIN.OPTIM.TYPE = "Adam"  # Matching iTransformer
+CFG.TRAIN.OPTIM.TYPE = "Adam"
 CFG.TRAIN.OPTIM.PARAM = {
-    "lr": 0.0005,                              # Matching iTransformer Electricity
+    "lr": 0.0002,
+    "weight_decay": 0.0005,
 }
 # Learning rate scheduler settings
 CFG.TRAIN.LR_SCHEDULER = EasyDict()
-CFG.TRAIN.LR_SCHEDULER.TYPE = "MultiStepLR"  # Matching iTransformer
+CFG.TRAIN.LR_SCHEDULER.TYPE = "MultiStepLR"
 CFG.TRAIN.LR_SCHEDULER.PARAM = {
     "milestones": [1, 25, 50],
     "gamma": 0.5
 }
 CFG.TRAIN.CLIP_GRAD_PARAM = {
-    'max_norm': 5.0                            # Matching iTransformer
+    'max_norm': 5.0
 }
 # Train data loader settings
 CFG.TRAIN.DATA = EasyDict()
-CFG.TRAIN.DATA.BATCH_SIZE = 64                # Matching iTransformer Electricity
+CFG.TRAIN.DATA.BATCH_SIZE = 64
 CFG.TRAIN.DATA.SHUFFLE = True
 
 ############################## Validation Configuration ##############################

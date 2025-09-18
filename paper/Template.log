@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.8.27)  18 SEP 2025 02:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.8.27)  18 SEP 2025 05:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -100,6 +100,19 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ams
+fonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ams
+fonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gra
 phics/graphicx.sty
@@ -360,23 +373,457 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \backup@length=\skip58
 \ar@cellbox=\box64
 ))
-Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 44.
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/alg
+orithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
 
-(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gra
-phics/color.sty
-Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/flo
+at/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count326
+\float@exts=\toks24
+\float@box=\box65
+\@float@everytoks=\toks25
+\@floatcapt=\box66
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/bas
+e/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks26
+\c@algorithm=\count327
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/alg
+orithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count328
+\c@ALC@line=\count329
+\c@ALC@rem=\count330
+\c@ALC@depth=\count331
+\ALC@tlm=\skip59
+\algorithmicindent=\skip60
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/frontendlayer/tikz.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/basiclayer/pgf.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/utilities/pgfrcs.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box67
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/utilities/pgfrcs.code.tex
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/basiclayer/pgfcore.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/systemlayer/pgfsys.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count332
+\c@pgf@countb=\count333
+\c@pgf@countc=\count334
+\c@pgf@countd=\count335
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count336
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xco
+lor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gra
 phics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
 
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/gra
-phics/mathcolor.ltx))
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-4.
+phics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmath.code.tex
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathutil.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count339
+\pgfmath@box=\box68
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.basic.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.trigonometric.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.random.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.comparison.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.base.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.round.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.misc.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfunctions.integerarithmetics.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathcalc.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count340
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfint.code.tex)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
+\pgf@picture@serial@count=\count341
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen272
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen276
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box72
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box73
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/utilities/pgffor.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/utilities/pgfkeys.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/utilities/pgfkeys.code.tex))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf
+/math/pgfmath.sty
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/math/pgfmath.code.tex))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count344
+\pgfplotmarksize=\dimen282
+)
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
+)
+\tikz@expandcount=\count352
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/shapes/pgflibraryshapes.callouts.code.tex))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box78
+\pgfnodeparttwobox=\box79
+\pgfnodepartthreebox=\box80
+\pgfnodepartfourbox=\box81
+\pgfnodeparttwentybox=\box82
+\pgfnodepartnineteenbox=\box83
+\pgfnodeparteighteenbox=\box84
+\pgfnodepartseventeenbox=\box85
+\pgfnodepartsixteenbox=\box86
+\pgfnodepartfifteenbox=\box87
+\pgfnodepartfourteenbox=\box88
+\pgfnodepartthirteenbox=\box89
+\pgfnodeparttwelvebox=\box90
+\pgfnodepartelevenbox=\box91
+\pgfnodeparttenbox=\box92
+\pgfnodepartninebox=\box93
+\pgfnodeparteightbox=\box94
+\pgfnodepartsevenbox=\box95
+\pgfnodepartsixbox=\box96
+\pgfnodepartfivebox=\box97
+)))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen291
+))
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/generic/p
+gf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 32.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+2.
 
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psn
 fss/ot1ptm.fd
@@ -385,43 +832,43 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3b
 ackend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count326
+\l__color_backend_stack_int=\count353
 ) (Template.aux)
 \openout1 = `Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/context/b
 ase/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count327
-\scratchdimen=\dimen185
-\scratchbox=\box65
-\nofMPsegments=\count328
-\nofMParguments=\count329
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count330
-\MPscratchDim=\dimen186
-\MPnumerator=\count331
-\makeMPintoPDFobject=\count332
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count354
+\scratchdimen=\dimen292
+\scratchbox=\box98
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen293
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks40
 )
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/eps
 topdf-pkg/epstopdf-base.sty
@@ -433,10 +880,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 iktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 32.
  (Template.out) (Template.out)
-\@outlinefile=\write3
-\openout3 = `Template.out'.
+\@outlinefile=\write4
+\openout4 = `Template.out'.
 
 
 (/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tra
@@ -445,36 +892,186 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 44.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
-0.
+or `english'. on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
 
-(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psn
-fss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ams
+fonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-Overfull \hbox (9.50429pt too wide) in paragraph at lines 66--71
-\OT1/ptm/m/n/10 spacing, and related information for producing your proceedings
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ams
+fonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 1584) in paragraph at lines 38--39
+\OT1/ptm/m/n/10 Resolution Non-Stationary Transformer with Mixture-of-
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 41--43
+\OT1/ptm/m/n/10 modeling, Multi-resolution analysis, Mixture-of-Experts,
+ []
+
+
+Overfull \hbox (8.77322pt too wide) in paragraph at lines 48--49
+\OT1/ptm/m/n/10 Time series forecasting is fundamental to numerous applications
 
  []
 
 
-Overfull \hbox (4.29414pt too wide) in paragraph at lines 66--71
-\OT1/ptm/m/n/10 manuscripts. Please follow them and if you have any questions,
+Overfull \hbox (5.81358pt too wide) in paragraph at lines 48--49
+\OT1/ptm/m/n/10 across finance, meteorology, healthcare, and industrial systems
+,
+ []
+
+
+LaTeX Warning: Citation `informer' on page 1 undefined on input line 50.
+
+
+LaTeX Warning: Citation `autoformer' on page 1 undefined on input line 50.
+
+
+Overfull \hbox (5.69394pt too wide) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 attention for efficient long-sequence modeling, and Autoformer
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 50--51
+\OT1/ptm/m/n/10 correlation mechanisms to capture seasonality and trend
+ []
+
+
+LaTeX Warning: Citation `revin' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Citation `nonstationary' on page 1 undefined on input line 52.
+
+
+Overfull \hbox (2.64369pt too wide) in paragraph at lines 52--53
+\OT1/ptm/m/n/10 they often treat non-stationarity uniformly without considering
+
  []
 
 
 
 
-Overfull \hbox (16.21356pt too wide) in paragraph at lines 124--126
-\OT1/ptm/m/n/10 Subheadings should appear in lower case (initial word capitaliz
-ed)
+LaTeX Warning: Citation `patchtst' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `timesnet' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `switchtransformer' on page 1 undefined on input line 5
+4.
+
+
+Overfull \hbox (9.55408pt too wide) in paragraph at lines 54--55
+[]\OT1/ptm/m/n/10 Recent advances have explored multi-resolution approaches:
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 130--134
-\OT1/ptm/m/n/10 Sub-subheadings, as in this paragraph, are discouraged.
+Overfull \hbox (20.2329pt too wide) in paragraph at lines 54--55
+\OT1/ptm/m/n/10 PatchTST [[]] demonstrates patch-based tokenization effectivene
+ss,
  []
+
+
+Overfull \hbox (8.64333pt too wide) in paragraph at lines 54--55
+\OT1/ptm/m/n/10 Mixture-of-Experts (MoE) paradigm shows promise in handling
+ []
+
+
+Overfull \hbox (13.05394pt too wide) in paragraph at lines 56--57
+[]\OT1/ptm/m/n/10 We propose MSNSFormer (Multi-Resolution Non-Stationary
+ []
+
+
+Overfull \hbox (14.56358pt too wide) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 Transformer with Mixture-of-Experts), addressing non-stationary
+
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 60--61
+[]\OT1/ptm/b/n/10 2) MoE Integration\OT1/ptm/m/n/10 : Dynamic routing of tempor
+al
+ []
+
+
+Overfull \hbox (8.3232pt too wide) in paragraph at lines 64--65
+\OT1/ptm/m/n/10 Rate datasets demonstrate superior performance with significant
+
+ []
+
+
+LaTeX Warning: Citation `autoformer' on page 1 undefined on input line 70.
+
+
+LaTeX Warning: Citation `informer' on page 1 undefined on input line 70.
+
+
+LaTeX Warning: Citation `patchtst' on page 1 undefined on input line 70.
+
+
+LaTeX Warning: Citation `timesnet' on page 1 undefined on input line 70.
+
+
+Overfull \hbox (19.17343pt too wide) in paragraph at lines 70--71
+\OT1/ptm/m/n/10 mechanisms, effectively separating trend and seasonal component
+s
+ []
+
+
+Overfull \hbox (8.47359pt too wide) in paragraph at lines 70--71
+\OT1/ptm/m/n/10 for long-term forecasting. Informer [[]] addresses computationa
+l
+ []
+
+
+Overfull \hbox (4.6235pt too wide) in paragraph at lines 70--71
+\OT1/ptm/m/n/10 information more effectively than point-wise tokens. TimesNet
+ []
+
+
+LaTeX Warning: Citation `revin' on page 1 undefined on input line 73.
+
+
+LaTeX Warning: Citation `nonstationary' on page 1 undefined on input line 73.
+
+
+Overfull \hbox (21.7127pt too wide) in paragraph at lines 73--74
+\OT1/ptm/m/n/10 forecasting. RevIN [[]] introduces reversible instance normaliz
+ation
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 73--74
+\OT1/ptm/m/n/10 and reversing the transformation for predictions. Non-
+ []
+
+
+Overfull \hbox (10.5035pt too wide) in paragraph at lines 73--74
+\OT1/ptm/m/n/10 stationary Transformers [[]] incorporate learnable decompositio
+n
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 73--74
+\OT1/ptm/m/n/10 SAN (Sequential Adaptive Normalization) extends batch
+ []
+
+
+Overfull \hbox (2.80336pt too wide) in paragraph at lines 73--74
+\OT1/ptm/m/n/10 normalization for sequential data with time-varying properties.
+ 
+ []
+
+
+Underfull \vbox (badness 2142) has occurred while \output is active []
 
 
 
@@ -485,83 +1082,222 @@ ex/pdftex.map}
 
 ]
 
-LaTeX Warning: Citation `Lamp86' on page 2 undefined on input line 168.
+LaTeX Warning: Citation `switchtransformer' on page 2 undefined on input line 7
+6.
 
 
-Overfull \hbox (6.56416pt too wide) in paragraph at lines 166--169
-[]\OT1/ptm/m/n/10 Since there are many ways, often incompatible, of including
+LaTeX Warning: Citation `timemoe' on page 2 undefined on input line 76.
+
+
+Overfull \hbox (9.25424pt too wide) in paragraph at lines 87--88
+[]\OT1/ptm/b/n/10 Local Non-Stationary Modeling\OT1/ptm/m/n/10 : When the input
+ sequence
  []
 
 
-Overfull \hbox (0.2833pt too wide) in paragraph at lines 166--169
-\OT1/ptm/m/n/10 images (e.g., with experimental results) in a LaTeX document,
+Overfull \hbox (9.95354pt too wide) in paragraph at lines 87--88
+\OT1/ptm/m/n/10 localized non-stationary behaviors. This approach is particular
+ly
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 173--178
-\OT1/ptm/m/n/10 help your readers, avoid using footnotes altogether and
+
+
+Overfull \hbox (17.3032pt too wide) in paragraph at lines 115--116
+\OT1/ptm/m/n/10 temporal distance relationships between tokens. This modificati
+on
  []
 
-<image1.pdf, id=69, 260.53635pt x 62.38908pt>
-File: image1.pdf Graphic file (type pdf)
-<use image1.pdf>
-Package pdftex.def Info: image1.pdf  used on input line 187.
-(pdftex.def)             Requested size: 241.84842pt x 57.91461pt.
-<image3.pdf, id=70, 215.44188pt x 146.72617pt>
-File: image3.pdf Graphic file (type pdf)
-<use image3.pdf>
-Package pdftex.def Info: image3.pdf  used on input line 194.
-(pdftex.def)             Requested size: 113.81102pt x 77.51149pt.
-<image4.pdf, id=71, 231.2389pt x 143.39272pt>
-File: image4.pdf Graphic file (type pdf)
-<use image4.pdf>
-Package pdftex.def Info: image4.pdf  used on input line 201.
-(pdftex.def)             Requested size: 113.81102pt x 70.57591pt.
+
+Overfull \hbox (2.25395pt too wide) in paragraph at lines 118--119
+\OT1/ptm/m/n/10 We incorporate advanced token mixing strategies that combine
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 127--128
+\OT1/ptm/m/n/10 simultaneously, processing input time series at different
+ []
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 131.
+
+
+[2]
+Underfull \hbox (badness 1048) in paragraph at lines 154--155
+\OT1/ptm/m/n/10 input into a high-dimensional representation suitable for
+ []
+
+
+LaTeX Warning: Reference `fig:architecture' on page 3 undefined on input line 1
+59.
+
+
+Overfull \hbox (10.17305pt too wide) in paragraph at lines 159--160
+\OT1/ptm/m/n/10 showcasing the multi-resolution processing and MoE integration
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+02.
+
+(/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psn
+fss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (106.6421pt too wide) in paragraph at lines 278--279
+ [][] 
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 279--279
+[]\OT1/ptm/b/n/10 Fig. 1\OT1/ptm/m/n/10 . []MSNSFormer Architecture: Multi-reso
+lution
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 289--290
+[]\OT1/ptm/b/n/10 ETT Datasets\OT1/ptm/m/n/10 : Electricity Transformer Tempera
+ture
+ []
+
+
+
+
+Overfull \hbox (0.9636pt too wide) in paragraph at lines 298--303
+\OT1/ptm/m/n/10 We compare MSNSFormer against state-of-the-art forecasting
+ []
+
+
+Overfull \hbox (7.08397pt too wide) in paragraph at lines 298--303
+\OT1/ptm/m/n/10 Smoothing - Deep Learning: LSTM, GRU, TCN - Transformer-
+ []
+
+
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.310 
+      ]
+
+LaTeX Warning: Reference `tab:comprehensive_results' on page 4 undefined on inp
+ut line 313.
+
+
+Overfull \hbox (32.20345pt too wide) in paragraph at lines 313--314
+\OT1/ptm/m/n/10 Our model consistently achieves superior performance, demonstra
+ting
+ []
+
+
+Overfull \hbox (12.3935pt too wide) in paragraph at lines 313--314
+\OT1/ptm/m/n/10 the effectiveness of the multi-resolution non-stationary approa
+ch. 
+ []
+
 (results_table.tex
 Overfull \hbox (9.97212pt too wide) in paragraph at lines 10--74
  [][] 
  []
 
 )
-Overfull \hbox (2.00336pt too wide) in paragraph at lines 224--227
-\OT1/ptm/m/n/10 You must submit your fully completed, signed IEEE electronic
+Overfull \hbox (19.45322pt too wide) in paragraph at lines 317--318
+[]\OT1/ptm/b/n/10 ETT Datasets\OT1/ptm/m/n/10 : MSNSFormer shows significant im
+provements
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 317--318
+\OT1/ptm/m/n/10 over existing methods, with 15-20% reduction in MAE
+ []
+
+
+Overfull \hbox (10.82402pt too wide) in paragraph at lines 317--318
+\OT1/ptm/m/n/10 horizons. The adaptive segmentation strategy proves particularl
+y
+ []
+
+
+Overfull \hbox (21.77402pt too wide) in paragraph at lines 317--318
+\OT1/ptm/m/n/10 effective for the highly non-stationary nature of power consump
+tion
+ []
+
+
+Overfull \hbox (2.22408pt too wide) in paragraph at lines 319--320
+[]\OT1/ptm/b/n/10 Weather Dataset\OT1/ptm/m/n/10 : The multi-resolution approac
+h captures
+ []
+
+
+Overfull \hbox (15.78334pt too wide) in paragraph at lines 321--322
+\OT1/ptm/m/n/10 complex traffic patterns, achieving 18% better MAE performance.
+
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 321--322
+\OT1/ptm/m/n/10 The MoE mechanism effectively routes different traffic
+ []
+
+
+Overfull \hbox (3.1035pt too wide) in paragraph at lines 326--327
+[]\OT1/ptm/b/n/10 Multi-Resolution Impact\OT1/ptm/m/n/10 : Removing the multi-r
+esolution
+ []
+
+
+Overfull \hbox (16.90392pt too wide) in paragraph at lines 326--327
+\OT1/ptm/m/n/10 mechanism results in 8-12% performance degradation, confirming
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 330--331
+[]\OT1/ptm/b/n/10 Segmentation Strategy\OT1/ptm/m/n/10 : Experiments with diffe
+rent
+ []
+
+
+Overfull \hbox (7.15392pt too wide) in paragraph at lines 337--338
+[]\OT1/ptm/b/n/10 1) Adaptive Multi-Resolution Non-Stationary Modeling\OT1/ptm/
+m/n/10 :
+ []
+
+
+Overfull \hbox (5.65335pt too wide) in paragraph at lines 339--340
+\OT1/ptm/m/n/10 specialize in different temporal behaviors within non-stationar
+y
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 341--342
+\OT1/ptm/m/n/10 formulations of attention mechanisms, gating functions,
+ []
+
+
+Overfull \hbox (11.5433pt too wide) in paragraph at lines 343--344
+\OT1/ptm/m/n/10 achieves state-of-the-art performance across multiple benchmark
+
  []
 
 
 
 
-LaTeX Warning: Citation `Lamp86' on page 2 undefined on input line 244.
 
-
-LaTeX Warning: Citation `C2' on page 2 undefined on input line 245.
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 239--250
-[]\OT1/ptm/m/n/10 You should differentiate what is new and how your
- []
-
-
-
-[2 <./image1.pdf> <./image3.pdf> <./image4.pdf>]
-
-LaTeX Warning: Citation `C2' on page 3 undefined on input line 260.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/pcr/m/n/10 / / ieee-[]dataport . org / sites / default / files /
- []
-
-
-Overfull \hbox (1.3063pt too wide) in paragraph at lines 265--266
-\OT1/pcr/m/n/10 analysis / 27 / IEEE % 20Citation % 20Guidelines .
- []
-
+[4]
 No file Template.bbl.
 
 
 
 
-[3
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.360 \end{document}
+                    
 
 ] (Template.aux)
  ***********
@@ -572,29 +1308,48 @@ L3 programming layer <2025-07-20>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Template.out' has not changed.
-(rerunfilecheck)             Checksum: D90EB715D9A8FE655548A36F62176143;2001.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Template.out':
+(rerunfilecheck)             Before: B533C9F473DF37032FABDDE2DDA78525;3511
+(rerunfilecheck)             After:  7B5017A8F706B610AC4E5E34C22B712D;3685.
  ) 
 Here is how much of TeX's memory you used:
- 13424 strings out of 470075
- 272232 string characters out of 2480321
- 692996 words of memory out of 3000000
- 41640 multiletter control sequences out of 15000+600000
- 647419 words of font info for 76 fonts, out of 8000000 for 9000
+ 27506 strings out of 470075
+ 592451 string characters out of 2480321
+ 998195 words of memory out of 3000000
+ 55395 multiletter control sequences out of 15000+600000
+ 651278 words of font info for 95 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,11n,79p,489b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,11n,91p,903b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/d
 vips/base/8r.enc}</Users/axion66/Library/Application Support/MiKTeX/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/axion66/Library/Applicati
-on Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></Users/axi
-on66/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/ut
-mb8a.pfb></Users/axion66/Library/Application Support/MiKTeX/texmfs/install/font
-s/type1/urw/times/utmbi8a.pfb></Users/axion66/Library/Application Support/MiKTe
-X/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></Users/axion66/Library/Appli
-cation Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Template.pdf (3 pages, 116137 bytes).
+all/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/axion66/Library/Applicati
+on Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Us
+ers/axion66/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></Users/axion66/Library/Application Support/MiKTeX/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/axion66/Library/Ap
+plication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmib10.
+pfb></Users/axion66/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></Users/axion66/Library/Application Support/MiK
+TeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/axion66/Libr
+ary/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></Users/axion66/Library/Application Support/MiKTeX/texmfs/install/font
+s/type1/public/amsfonts/cm/cmsy7.pfb></Users/axion66/Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Users/axion66/Librar
+y/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmbi8a.pfb><
+/Users/axion66/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/ur
+w/times/utmr8a.pfb></Users/axion66/Library/Application Support/MiKTeX/texmfs/in
+stall/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Template.pdf (5 pages, 189833 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

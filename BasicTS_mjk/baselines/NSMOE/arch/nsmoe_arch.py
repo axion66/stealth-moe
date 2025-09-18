@@ -635,8 +635,10 @@ class NSMOE(nn.Module):
         )
         
         # Store auxiliary loss for backward pass
-        if train and hasattr(self, '_aux_loss'):
-            self._aux_loss = aux_loss
+        if train:
+            self._aux_loss = aux_loss * self.aux_loss_weight
+        else:
+            self._aux_loss = torch.tensor(0.0, device=prediction.device)
         
         return prediction.unsqueeze(-1)  # B, L2, N, 1
     
@@ -713,12 +715,12 @@ class MSNSMOE(nn.Module):
         """
         args = self.model_args.copy()
         
-        # Adjust sequence length for the scale
-        args['seq_len'] = self.seq_len // scale
-        args['label_len'] = self.label_len // scale
+        # Adjust sequence length for the scale (ensure divisibility)
+        args['seq_len'] = max(1, self.seq_len // scale)
+        args['label_len'] = max(1, self.label_len // scale)
         
-        # Adjust pred_len for the scale
-        args['pred_len'] = self.pred_len // scale
+        # Keep pred_len unchanged for all scales - we want to predict the same future length
+        args['pred_len'] = self.pred_len
         
         return args
     
@@ -744,20 +746,6 @@ class MSNSMOE(nn.Module):
         
         return chunks
     
-    def _combine_predictions(self, predictions: list, scale: int) -> torch.Tensor:
-        """
-        Combine predictions from multiple chunks back to full length
-        
-        Args:
-            predictions: List of prediction tensors from chunks
-            scale: Number of chunks that were processed
-            
-        Returns:
-            torch.Tensor: Combined full-length prediction
-        """
-        # Concatenate along time dimension
-        combined = torch.cat(predictions, dim=1)  # B, pred_len, N, C
-        return combined
     
     def forward_multi_scale(self, history_data: torch.Tensor, future_data: torch.Tensor, 
                            batch_seen: int, epoch: int, train: bool) -> tuple:
@@ -795,22 +783,22 @@ class MSNSMOE(nn.Module):
                     total_aux_loss += models[0].get_aux_loss()
                     
             else:
-                # Scale 2 or 4: Split sequence processing
-                # Split history and future data
+                # Scale 2 or 4: Split history sequence processing  
+                # Split only history data into chunks, keep future data full length
                 history_chunks = self._split_sequence(history_data, scale)
-                future_chunks = self._split_sequence(future_data, scale)
                 
                 chunk_predictions = []
-                for i, (hist_chunk, fut_chunk) in enumerate(zip(history_chunks, future_chunks)):
-                    pred_chunk = models[i](hist_chunk, fut_chunk, batch_seen, epoch, train)
+                for i, hist_chunk in enumerate(history_chunks):
+                    # Each model processes its history chunk but predicts the full future
+                    pred_chunk = models[i](hist_chunk, future_data, batch_seen, epoch, train)
                     chunk_predictions.append(pred_chunk)
                     
                     # Add auxiliary loss
                     if hasattr(models[i], 'get_aux_loss'):
                         total_aux_loss += models[i].get_aux_loss()
                 
-                # Combine chunk predictions to full length
-                combined_pred = self._combine_predictions(chunk_predictions, scale)
+                # Average predictions from all chunks (ensemble across temporal chunks)
+                combined_pred = torch.stack(chunk_predictions, dim=0).mean(dim=0)
                 scale_predictions.append(combined_pred)
         
         # Ensemble: Average predictions from all scales
@@ -843,7 +831,7 @@ class MSNSMOE(nn.Module):
         else:
             self._aux_loss = torch.tensor(0.0, device=prediction.device)
         
-        return prediction
+        return prediction.unsqueeze(-1)  # B, L2, N, 1
     
     def get_aux_loss(self):
         """Get auxiliary loss for MoE load balancing across all scales"""
